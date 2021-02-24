@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { getRepository } from "typeorm";
-import { User } from "../models/User";
+import { getCustomRepository } from "typeorm";
+import { UsersRepository } from "../repositories/UsersRepository";
 
 class UserController {
 	async create(request: Request, response: Response){
@@ -9,7 +9,7 @@ class UserController {
 		// O repositório é um entity manager, ele permite realizar algumas ações no banco de dados,
 		// toda a a comunicação com o banco de dados será feita pelos repositórios
 		// e cada entidade(classe) terá seu repositório específico.
-		const usersRepository = getRepository(User);
+		const usersRepository = getCustomRepository(UsersRepository);
 
 		// SELECT * FROM USERS WHERE EMAIL = "EMAIL"
 		const userAlreadyExists =  await usersRepository.findOne({
@@ -23,12 +23,13 @@ class UserController {
 		}
 
 		const user = usersRepository.create({
-			name, email
+			name, 
+			email,
 		});
 
 		await usersRepository.save(user);
 
-		return response.json(user);
+		return response.status(201).json(user);
 	}
 }
 
