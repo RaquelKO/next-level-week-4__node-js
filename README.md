@@ -9,7 +9,7 @@
  
 </p>
 
-Desenvolvido durante a quarta edição do evento Next Level Week da Rocketseat, o projeto consiste em uma API (Application Programming Interface) que, dentre outras funcionaldiades, tem como objetivo principal realizar o cálculo de NPS (Net Promoter Score), que avalia a satisfação dos clientes ao utilizar os serviços de uma empresa. 
+Desenvolvido durante a quarta edição do evento Next Level Week da Rocketseat, o projeto consiste em uma API (Application Programming Interface) que, dentre outras funcionalidades, tem como objetivo principal realizar o cálculo de NPS (Net Promoter Score), que avalia a satisfação dos clientes ao utilizar os serviços de uma empresa. 
 <br/>
 <br/>
 Foi desenvolvido um sistema completo de backend, com realização de cadastros, testes automatizados e envio de e-mails, utilizando Typescript e Express para gerenciamento de rotas e TypeORM para a manipulação dos dados.
