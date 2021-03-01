@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <img src="public/Diagrama-ER-NLW4.png" alt="Diagrama da aplicação" />
 
 ## 🚀 Como executar
-- Clone o repositório
+- Clone o repositório:
 ```
 $ git clone https://github.com/RaquelKO/next-level-week-4__node-js/
 ```
