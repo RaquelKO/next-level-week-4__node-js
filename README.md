@@ -37,17 +37,21 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ```
 $ git clone https://github.com/RaquelKO/next-level-week-4__node-js/
 ```
-- Instale as dependências descritas no arquivo `package.json` com `yarn add`
+- Instale as dependências descritas no arquivo `package.json`:
+```
+$ yarn add ...
+```
 - Inicie o servidor:
 ```
-yarn dev
+$ yarn dev
 ```
 - Execute os testes automatizados:
 ```
-yarn test
+$ yarn test
 ```
-A aplicação pode ser acessada em [`localhost:3333`](http://localhost:3333).
-
+✓ A aplicação pode ser acessada em [`localhost:3333`](http://localhost:3333).
+<br/>
+<br/>
 ## 📄 Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
